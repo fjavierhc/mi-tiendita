@@ -1,0 +1,32 @@
+
+body{
+    /*margin 0; */
+    background-color: rgb(212, 212, 189) ;
+
+}
+.titulo{ 
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 2px rgb(22, 22, 10);
+    
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(32, 30, 34);
+    border-radius: 10px;
+    border: solid 2px rgb(12, 12, 1);
+}
+.flex-container *{
+    
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px rgb(12, 3, 3);
+    border-radius: 5px;
+    background: rgb(59, 61, 53);
+}
