@@ -9,8 +9,11 @@ body{
     padding: 10px;
     margin-bottom: 10px;
     border: solid 2px rgb(22, 22, 10);
-    
-    
+    justify-content: center;
+}
+
+.titulo *{
+    justify-content: center;
 }
 .flex-container{
     display: flex;
