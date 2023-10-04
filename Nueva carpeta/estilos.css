@@ -46,6 +46,6 @@ h1{
     font-family: cursive;
     color: aliceblue;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: rgb(59, 61, 53);
     }
