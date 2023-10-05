@@ -9,7 +9,6 @@
         background-image: url(imagenes/abarrotes1.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
-
       }
     h1{
       display: flex;
@@ -44,15 +43,34 @@
       align-items: center;
       justify-content: center;
     }
+    .flex-container1 *{
+      display: flex;
+      align-items: center;
+      
+    }
+     
+    .box {
+      background-color: black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 80px;
+      height: 40px;
+      border: 4px solid rgb(29, 24, 24);
+      background-color: aliceblue;
+      border-radius: 15px;
+      margin: 15px;
+      line-height: 40px;
+    }
     
       
-
+    
     </style>
     
     
 </head>
 <body>
-  <H1>ABARROTES</H1>
+    <H1>ABARROTES</H1>
    
     <div class="abarrotes1">
       <ul>
@@ -62,6 +80,11 @@
           <div class="azucar">AZUCAR</div>
        
       </ul>  
+    </div>
+    <div class="flex-container1">
+      <div class="box"><a href="cereales.html">Cereales</a></div>
+      <div class="box"><a href="cremeria.html">Cremeria</a></div>
+      <div class="box"><a href="limpieza.html">Limpieza</a></div>   
     </div>
     
 

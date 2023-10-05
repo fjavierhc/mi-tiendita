@@ -4,10 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-image: url(imagenes/abarrotes.jpg);
+            background-repeat: no-repeat;
+            background-size: 130%;
+        }
+        h1{
+            display: flex;
+            flex-wrap:nowrap ;
+            justify-content: center;
+            font-family:Arial, Helvetica, sans-serif ;
+            font-size: 90px;
+            background-color: rgb(236, 230, 230);
+            color: rgb(8, 14, 19);
+            margin-bottom: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid black;
+            min-width: 100px;
+            max-width: 100%;
+       
+         }
+        .cremeria1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            color: white;
+            background-color: rgb(32, 30, 34);
+            border-radius: 10px;
+            border: solid 2px rgb(12, 12, 1);
+            font-size: 20px;
+         }
+        .cremeria1 *{
+            display: flex;
+            flex: 1;
+            flex-wrap: wrap;
+            margin: 10px;
+            padding: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <H1>CREMERIA</H1>
-    <div>
+    <div class="cremeria1">
         <ul>
             <div class="crema">CREMA</div>
             <div class="queso">QUESO</div>

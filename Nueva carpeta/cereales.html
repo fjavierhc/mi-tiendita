@@ -4,10 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CEREALES</title>
+    
+    <style>
+        body{
+            background-image: url(imagenes/abarrotes2.jpg);
+            background-repeat: no-repeat;
+            background-size: 130%;
+        }
+        h1{
+            display: flex;
+            flex-wrap:nowrap ;
+            justify-content: center;
+            font-family:Arial, Helvetica, sans-serif ;
+            font-size: 90px;
+            background-color: rgb(224, 210, 210);
+            color: rgb(8, 14, 19);
+            margin-bottom: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid black;
+            min-width: 100px;
+            max-width: 100%;
+       
+         }
+        .cereales1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            color: white;
+            background-color: rgb(32, 30, 34);
+            border-radius: 10px;
+            border: solid 2px rgb(12, 12, 1);
+         }
+        .cereales1 *{
+            display: flex;
+            flex: 1;
+            flex-wrap: wrap;
+            margin: 10px;
+            padding: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <H1>CEREALES</H1>
-    <div>
+    <div class="cereales1">
       <ul>
           <div class="korn flakes">KORN FLAKES</div>
           <div class="avena">AVENA</div>
